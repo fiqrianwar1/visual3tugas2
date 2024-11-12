@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>423</width>
+    <height>385</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>341</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="kode_dosenLabel">
+      <property name="text">
+       <string>kode_dosen</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="kode_dosenLineEdit"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="nipyLabel">
+      <property name="text">
+       <string>nipy</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="nipyLineEdit"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="nidnLabel">
+      <property name="text">
+       <string>nidn</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="nidnLineEdit"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="nama_dosenLabel">
+      <property name="text">
+       <string>nama_dosen</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="nama_dosenLineEdit"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="pendidikanLabel">
+      <property name="text">
+       <string>pendidikan</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="pendidikanLineEdit"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="jurusanLabel">
+      <property name="text">
+       <string>jurusan</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="jurusanLineEdit"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="tempat_lahirLabel">
+      <property name="text">
+       <string>tempat_lahir</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="tempat_lahirLineEdit"/>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="tanggal_lahirLabel">
+      <property name="text">
+       <string>tanggal_lahir</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QDateEdit" name="tanggal_lahirDateEdit"/>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="alamatLabel">
+      <property name="text">
+       <string>alamat</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QLineEdit" name="alamatLineEdit"/>
+    </item>
+    <item row="9" column="0">
+     <widget class="QLabel" name="no_hpLabel">
+      <property name="text">
+       <string>no_hp</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="1">
+     <widget class="QLineEdit" name="no_hpLineEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="btnSimpan">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>290</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Simpan</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnUbah">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>290</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ubah</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnHapus">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>330</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Hapus</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnCari">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>330</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cari</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>341</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="nimLabel">
+      <property name="text">
+       <string>nim </string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="nimLineEdit"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="nama_mahasiswaLabel">
+      <property name="text">
+       <string>nama_mahasiswa</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="nama_mahasiswaLineEdit"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="jenis_kelaminLabel">
+      <property name="text">
+       <string>jenis_kelamin</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="jenis_kelaminLineEdit"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="tempat_lahirLabel">
+      <property name="text">
+       <string>tempat_lahir</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="tempat_lahirLineEdit"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="tanggal_lahirLabel">
+      <property name="text">
+       <string>tanggal_lahir</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QDateEdit" name="tanggal_lahirDateEdit"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="alamatLabel">
+      <property name="text">
+       <string>alamat</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="alamatLineEdit"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="no_hpLabel">
+      <property name="text">
+       <string>no_hp</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="no_hpLineEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="btnCari">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>260</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cari</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnSimpan">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>220</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Simpan</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnUbah">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>220</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ubah</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnHapus">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>260</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Hapus</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
